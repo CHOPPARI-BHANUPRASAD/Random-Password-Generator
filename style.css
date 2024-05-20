@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #4e54cb, #8f94fb);
+    background: linear-gradient(to right, #1bec04, #b107ef);
 }
 .container {
     max-width: 500px;
@@ -48,7 +48,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     background-color: #f2f2f2;
-    color: #333;
+    color: #072be0;
     outline: none;
 }
 .row {
@@ -62,7 +62,7 @@ body {
     flex-basis: 60%;
     font-size: 16px;
     font-weight: 500;
-    color: #000;
+    color: #425c62;
 }
 .row p {
     font-weight: 700;
@@ -78,12 +78,12 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #fff;
-    background-color: #3162cb;
+    background: linear-gradient(to right, #b107ef, #1bec04);
     cursor: pointer;
     margin-top: 30px;
 }
 .genBtn:hover {
-    background-color: #1d1e20;
+    background-color: #2859bc;
 }
 input[type="range"] {
     width: 100%;
@@ -96,7 +96,7 @@ input[type="range"] {
     position: relative;
     width: 100%;
     height: 4px;
-    background: #a69e9e;
+    background: #666060;
     border-radius: 25px;
 }
 .pass-indicator::before {
@@ -108,14 +108,14 @@ input[type="range"] {
     transition: width 0.3s ease;
 }
 .pass-indicator.weak::before {
-    width: 20%;
-    background-color: #e64a4a;
+    width: 25%;
+    background-color: #ff0000;
 }
 .pass-indicator.medium::before {
     width: 50%;
-    background-color: #f1c80b;
+    background-color: #ffd61e;
 }
 .pass-indicator.strong::before {
     width: 100%;
-    background-color: #4285fa;
+    background-color: #00ff2f;
 }
